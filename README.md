@@ -1,5 +1,5 @@
 # hgss filesys example
- an example project that allows easy version control of the files in your rom
+ this branch of the system changes script command 0x308 (currently 308 in dspre) to give the odd egg when the current map is the day care
 
 ### purpose
  have you ever looked at your hgss project and been tired of all of the compression in overlays?
@@ -19,7 +19,7 @@
  
  manually extract your arm9 using a tool like crystaltile2.  make sure your arm9 is decompressed
  
- make edits to the filesystem
+ make edits to the filesystem.  to implement the odd egg, run scripts\makeoddegg.bat
  
  run scripts\compile.bat when ready to build a rom
  
