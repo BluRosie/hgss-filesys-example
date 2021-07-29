@@ -3,11 +3,11 @@
 
 .open "filesys/arm9.bin", 0x02000000
 
-// patch out MIi_UncompressBackward
+// patch out arm9 decompression by feeding MIi_UncompressBackward a 0 instead of the compressed size so that nothing happens
 
-.org 0x02000970
+.org 0x02000BB4
 
-bx lr
+.word 0
 
 .pool
 
