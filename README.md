@@ -1,5 +1,5 @@
 # hgss filesys example
- an example project that allows easy version control of the files in your rom
+ this branch of the system implements the fairy type in the rom given.  this includes the pokedex screen icon, summary screen icons, move selection palette, arceus' forme change, and judgment's type change.
 
 ### purpose
  have you ever looked at your hgss project and been tired of all of the compression in overlays?
@@ -19,7 +19,7 @@
  
  manually extract your arm9 using a tool like crystaltile2.  make sure your arm9 is decompressed
  
- make edits to the filesystem
+ make edits to the filesystem.  to implement the fairy type, run scripts\makefairytype.bat
  
  run scripts\compile.bat when ready to build a rom
  

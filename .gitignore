@@ -3,3 +3,4 @@
 *.sav
 *.o
 *.bak
+text/tmp_base/*
