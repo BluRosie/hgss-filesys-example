@@ -127,6 +127,5 @@ tools\blz -d filesys\overlay\overlay_0125.bin
 tools\blz -d filesys\overlay\overlay_0126.bin
 tools\blz -d filesys\overlay\overlay_0127.bin
 tools\blz -d filesys\overlay\overlay_0128.bin
-tools\arm9dec filesys\arm9.bin arm9.bin
-copy arm9.bin filesys\arm9.bin
-del /f arm9.bin
+tools\arm9dec "filesys\arm9.bin" "arm9.bin"
+for %%F in ("arm9.bin") do @if %%~zF==0 (del /f "%%F") else (copy arm9.bin filesys\arm9.bin & del /f "%%F")
