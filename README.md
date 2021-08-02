@@ -16,7 +16,7 @@
  run scripts\extract.bat
  
  run scripts\decompress.bat
-  
+
  make edits to the filesystem.  to implement the odd egg, run scripts\makeoddegg.bat
  
  run scripts\compile.bat when ready to build a rom
