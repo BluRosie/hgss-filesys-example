@@ -16,7 +16,7 @@
  run scripts\extract.bat
  
  run scripts\decompress.bat
- 
+
  make edits to the filesystem.  to implement the fairy type, run scripts\makefairytype.bat
  
  run scripts\compile.bat when ready to build a rom
