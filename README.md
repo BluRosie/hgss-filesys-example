@@ -16,9 +16,7 @@
  run scripts\extract.bat
  
  run scripts\decompress.bat
- 
- manually extract your arm9 using a tool like crystaltile2.  make sure your arm9 is decompressed
- 
+  
  make edits to the filesystem.  to implement the odd egg, run scripts\makeoddegg.bat
  
  run scripts\compile.bat when ready to build a rom
