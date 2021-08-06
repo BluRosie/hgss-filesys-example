@@ -37,6 +37,10 @@ patch_1:
 .open "filesys/header.bin", 0
 
 .org 0xC
+.if HARDWARE == 1
     .ascii "CPUA" // this is done so that twlmenu does not try to patch anything
+.else
+    .ascii "IPKE" // this is done so that dspre will read the game
+.endif
 
 .close
