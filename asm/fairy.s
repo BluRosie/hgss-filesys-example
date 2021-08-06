@@ -2,7 +2,7 @@
 .thumb
 
 /*
-  this file contains all of the edits that can be made to the rom using armips (hypothetically) that don't deal with data
+  this file contains all of the edits that can be made to the rom using armips (hypothetically) that do not deal with data
   assumes a deconstructed a011 and a017 in the root directory
   this file does not deal with the summary screen icon (img & pal), the dex icon (img), the item gfx (pal), the arceus btx0 overworlds, or the judgment battle script
   all of the gfx are dealt with as raw included files
