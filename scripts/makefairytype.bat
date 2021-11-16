@@ -40,10 +40,9 @@ copy "data\a081_854" "a081\1_854"
 tools\narchive create filesys\data\a\0\8\1 a081 -nf
 rmdir /q /s a081
 :: text
-copy base.nds text\base.nds
-cd text
-thenewpoketext < script.txt
-cd ..\
-copy "text\tmp_base\a027.narc" "filesys\data\a\0\2\7"
-rmdir /q /s text\tmp_base
-del /f text\base.nds
+tools\narchive extract filesys\data\a\0\2\7 -o a027 -nf
+tools\msgenc -e -c charmap.txt data\text\221.txt a027\7_221
+tools\msgenc -e -c charmap.txt data\text\222.txt a027\7_222
+tools\msgenc -e -c charmap.txt data\text\223.txt a027\7_223
+tools\narchive create filesys\data\a\0\2\7 a027 -nf
+rmdir /q /s a027
