@@ -17,7 +17,7 @@
  
  run scripts\decompress.bat
  
- make edits to the filesystem
+ make edits to the filesystem.  if you edit trainers using this branch, run scripts\maketrainerdata.bat
  
  run scripts\compile.bat when ready to build a rom
  
