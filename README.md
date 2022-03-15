@@ -17,7 +17,7 @@
  
  run scripts\decompress.bat
  
- make edits to the filesystem
+ make edits to the filesystem.  if you want mud slopes as collision type 0xD9, run scripts\makemudslope.bat
  
  run scripts\compile.bat when ready to build a rom
  
@@ -28,3 +28,5 @@
  DarkFader - ndstool
  
  @nickworonekin - narchive
+ 
+ mikelan98 - mud slope asm routine
