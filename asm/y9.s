@@ -5,8 +5,8 @@ UNCOMPRESSED equ 0x00000000
 
 SOULSILVER equ 0
 
-.if SOULSILVER == 1
 .create "filesys/y9.bin", 0
+.if SOULSILVER == 1
                //        id, memaddress,                                      memsize,    bsssize,  initstart,    initend, fid, filesize | compressed
 /* overlay   0 */ .word   0, 0x021E5900, filesize("filesys/overlay/overlay_0000.bin"), 0x00001380, 0x022163F8, 0x022163FC,   0, UNCOMPRESSED
 /* overlay   1 */ .word   1, 0x021E5900, filesize("filesys/overlay/overlay_0001.bin"), 0x0003C020, 0x02209810, 0x02209814,   1, UNCOMPRESSED
