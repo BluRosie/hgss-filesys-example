@@ -16,6 +16,8 @@
  run scripts\extract.bat
  
  run scripts\decompress.bat
+ 
+ if using soulsilver, edit ``SOULSILVER equ 0`` in asm\y9.s to be ``SOULSILVER equ 1``
 
  make edits to the filesystem.  to implement the odd egg, run scripts\makeoddegg.bat
  
